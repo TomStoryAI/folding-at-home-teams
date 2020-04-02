@@ -1,0 +1,84 @@
+{
+  "configVersion": 1,
+  "timestamp": 1585850621549,
+  "index": "/folding-at-home-teams/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/folding-at-home-teams/favicon.ico",
+        "/folding-at-home-teams/index.html",
+        "/folding-at-home-teams/main-es2015.fa7f794d2b7e6b1bc1c8.js",
+        "/folding-at-home-teams/main-es5.fa7f794d2b7e6b1bc1c8.js",
+        "/folding-at-home-teams/manifest.webmanifest",
+        "/folding-at-home-teams/polyfills-es2015.1f913f16a2d346cc8bdc.js",
+        "/folding-at-home-teams/polyfills-es5.f1044614286c4864d80f.js",
+        "/folding-at-home-teams/runtime-es2015.0811dcefd377500b5b1a.js",
+        "/folding-at-home-teams/runtime-es5.0811dcefd377500b5b1a.js",
+        "/folding-at-home-teams/styles.29457093a1b97b3c483c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/folding-at-home-teams/assets/icons/icon-128x128.png",
+        "/folding-at-home-teams/assets/icons/icon-144x144.png",
+        "/folding-at-home-teams/assets/icons/icon-152x152.png",
+        "/folding-at-home-teams/assets/icons/icon-192x192.png",
+        "/folding-at-home-teams/assets/icons/icon-384x384.png",
+        "/folding-at-home-teams/assets/icons/icon-512x512.png",
+        "/folding-at-home-teams/assets/icons/icon-72x72.png",
+        "/folding-at-home-teams/assets/icons/icon-96x96.png",
+        "/folding-at-home-teams/assets/icons/pageicons/teams.png",
+        "/folding-at-home-teams/assets/img/404.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/folding-at-home-teams/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/folding-at-home-teams/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/folding-at-home-teams/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/folding-at-home-teams/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/folding-at-home-teams/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/folding-at-home-teams/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/folding-at-home-teams/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/folding-at-home-teams/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/folding-at-home-teams/assets/icons/pageicons/teams.png": "4abcab4bc47ce04005e47d4829811c3d47d19567",
+    "/folding-at-home-teams/assets/img/404.jpg": "942c0812e0509d810bbe0f51c89cd12531303f08",
+    "/folding-at-home-teams/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/folding-at-home-teams/index.html": "b52a22bacb9597ed6ced6c5fd4f9cf62b118d746",
+    "/folding-at-home-teams/main-es2015.fa7f794d2b7e6b1bc1c8.js": "32f1899e6a5341c4a080c13d81a4947e4ef232e2",
+    "/folding-at-home-teams/main-es5.fa7f794d2b7e6b1bc1c8.js": "282d091a5e52ffb49196f6c4aa84968352276303",
+    "/folding-at-home-teams/manifest.webmanifest": "0956da5426031c5b63fa88ecbfe4fd860d8b2413",
+    "/folding-at-home-teams/polyfills-es2015.1f913f16a2d346cc8bdc.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/folding-at-home-teams/polyfills-es5.f1044614286c4864d80f.js": "e5472003c8575a8fca7583648df3905038faeb18",
+    "/folding-at-home-teams/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/folding-at-home-teams/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/folding-at-home-teams/styles.29457093a1b97b3c483c.css": "9d1cf5ae92fd0ac32c9545da02f7524ab762226d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
