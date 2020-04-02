@@ -12,24 +12,24 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatStepperModule } from '@angular/material/stepper';
-import {MatGridListModule} from '@angular/material/grid-list';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
-    exports: [
-        MatToolbarModule,
-        MatMenuModule,
-        MatIconModule,
-        MatButtonModule,
-        MatProgressSpinnerModule,
-        MatInputModule,
-        MatCardModule,
-        MatSelectModule,
-        MatFormFieldModule,
-        MatDialogModule,
-        MatSidenavModule,
-        MatListModule,
-        MatStepperModule,
-        MatGridListModule
-    ]
+  exports: [
+    MatToolbarModule,
+    MatMenuModule,
+    MatIconModule,
+    MatButtonModule,
+    MatProgressSpinnerModule,
+    MatInputModule,
+    MatCardModule,
+    MatSelectModule,
+    MatFormFieldModule,
+    MatDialogModule,
+    MatSidenavModule,
+    MatListModule,
+    MatStepperModule,
+    MatGridListModule
+  ]
 })
-export class AppMaterialModule { }
+export class AppMaterialModule {}

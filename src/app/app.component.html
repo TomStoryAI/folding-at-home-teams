@@ -1,9 +1,20 @@
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/challenges">
+    <mat-icon>dialpad</mat-icon>
+    <span>Challenges</span>
+  </button>
+</mat-menu>
+
 <mat-toolbar color="primary">
   <mat-toolbar-row>
-    <span>Fighting the good Fight...</span>
+    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
     <span class="example-fill-remaining-space"></span>
-    <a href="/challenges"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon></a>
+    Folding With Friends
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
   </mat-toolbar-row>
 </mat-toolbar>
 <router-outlet></router-outlet>
-<div hidden="true">Icons erstellt von <a href="https://www.flaticon.com/de/autoren/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com</a></div>
+<div hidden="true">
+  Icons erstellt von <a href="https://www.flaticon.com/de/autoren/monkik" title="monkik">monkik</a> from
+  <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com</a>
+</div>
