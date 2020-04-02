@@ -10,13 +10,15 @@ import { AppMaterialModule } from './app-material.module';
 import { ChallengesComponent } from './pages/challenges/challenges.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { MostActivityComponent } from './challenges/most-activity/most-activity.component';
+import { ConsistencyComponent } from './challenges/consistency/consistency/consistency.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChallengesComponent,
     NotFoundComponent,
-    MostActivityComponent
+    MostActivityComponent,
+    ConsistencyComponent
   ],
   imports: [
     AppMaterialModule,

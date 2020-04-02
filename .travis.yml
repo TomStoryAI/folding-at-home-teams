@@ -6,19 +6,18 @@ sudo: required
 
 branches:
   only:
-  - master
-  
+    - master
+
 before_script:
   - npm install -g @angular/cli
 
 script:
-- ng lint
-- ng build --prod --output-path docs --base-href /folding-at-home-teams/
+  - ng build --prod --output-path docs --base-href /folding-at-home-teams/
 
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository on Github, as a secure variable
+  github_token: $GITHUB_TOKEN # Set in the settings page of your repository on Github, as a secure variable
   keep_history: true
   local_dir: docs
   on:
