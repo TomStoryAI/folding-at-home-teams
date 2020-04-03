@@ -12,9 +12,11 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { MostActivityComponent } from './challenges/most-activity/most-activity.component';
 import { ConsistencyComponent } from './pages/challenges/consistency/consistency.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PointsComponent } from './pages/challenges/points/points.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 @NgModule({
-  declarations: [AppComponent, ChallengesComponent, NotFoundComponent, MostActivityComponent, ConsistencyComponent],
+  declarations: [AppComponent, ChallengesComponent, NotFoundComponent, MostActivityComponent, ConsistencyComponent, PointsComponent, ProfileComponent],
   imports: [
     AppMaterialModule,
     BrowserModule,

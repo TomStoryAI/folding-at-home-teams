@@ -11,6 +11,6 @@ export class ConsistencyComponent implements OnInit {
 
   async ngOnInit() {
     console.log('Consistency initialized');
-    console.log(await this.http.get('https://stats.foldingathome.org/api/team/251356').toPromise());
+    //console.log(await this.http.get('https://stats.foldingathome.org/api/team/251356').toPromise());
   }
 }

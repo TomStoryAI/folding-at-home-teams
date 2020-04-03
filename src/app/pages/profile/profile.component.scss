@@ -1,0 +1,15 @@
+.flex-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container > div {
+  background-color: #f5fcff;
+  width: 512px;
+  line-height: 75px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
